@@ -76,7 +76,6 @@ const users = [];
 users.push(firstUser);
 users.push(secondUser);
 
-console.log(users);
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
   console.log(users.length || users.size);
