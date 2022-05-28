@@ -31,6 +31,19 @@ let restaurant2 = [
   "Eggy",
 ];
 
+let fuEducation = [
+  { name: "SD 01", city: "Jakarta", graduate: 2016 },
+  { name: "SMP 02", city: "Jakarta", graduate: 2019 },
+  { name: "SMA 03", city: "Tangerang" },
+];
+
+let suEducation = [
+  { name: "SD 02", city: "Jakarta", graduate: 2010 },
+  { name: "SMP 03", city: "Bogor", graduate: 2013 },
+  { name: "SMA 01", city: "Surabaya", graduate: 2016 },
+  { name: "Universitas Maju", city: "Tangerang" },
+];
+
 let favoriteColor1 = [...new Set(color1)];
 let favoriteColor2 = [...new Set(color2)];
 let favoriteRestaurant1 = [...new Set(restaurant1)];
@@ -43,11 +56,7 @@ const firstUser = {
   email: "monica@dingdong.com",
   favoriteColor: favoriteColor1,
   isHavePet: "Yes",
-  education: [
-    { name: "SD 01", city: "Jakarta", graduate: 2016 },
-    { name: "SMP 02", city: "Jakarta", graduate: 2019 },
-    { name: "SMA 03", city: "Tangerang" },
-  ],
+  education: fuEducation,
   favoriteRestaurant: favoriteRestaurant1,
 };
 
@@ -58,12 +67,7 @@ const secondUser = {
   email: "wendy@dingdong.com",
   favoriteColor: favoriteColor2,
   isHavePet: "No",
-  education: [
-    { name: "SD 02", city: "Jakarta", graduate: 2010 },
-    { name: "SMP 03", city: "Bogor", graduate: 2013 },
-    { name: "SMA 01", city: "Surabaya", graduate: 2016 },
-    { name: "Universitas Maju", city: "Tangerang" },
-  ],
+  education: suEducation,
   favoriteRestaurant: favoriteRestaurant2,
 };
 
@@ -71,7 +75,6 @@ const secondUser = {
 const users = [];
 users.push(firstUser);
 users.push(secondUser);
-console.log(users);
 
 console.log(users);
 // ! JANGAN MODIFIKASI LINE DI BAWAH
