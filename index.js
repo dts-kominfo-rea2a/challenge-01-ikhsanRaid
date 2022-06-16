@@ -50,7 +50,7 @@ let favoriteRestaurant1 = [...new Set(restaurant1)];
 let favoriteRestaurant2 = [...new Set(restaurant2)];
 
 const firstUser = {
-  name: "monica",
+  name: "Monica",
   gender: "Female",
   age: 17,
   email: "monica@dingdong.com",
@@ -61,7 +61,7 @@ const firstUser = {
 };
 
 const secondUser = {
-  name: "wendy",
+  name: "Wendy",
   gender: "Male",
   age: 23,
   email: "wendy@dingdong.com",
